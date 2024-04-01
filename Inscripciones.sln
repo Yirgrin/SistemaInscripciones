@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33403.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Formularios", "Formularios\Formularios.vbproj", "{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BackEnd", "BackEnd\BackEnd.vbproj", "{FAF8582B-806F-482A-B26F-B628C179B6AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desactualizados", "Desactualizados", "{26E7969A-CC4F-4ACE-B85A-FE185CCA5BCF}"
+	ProjectSection(SolutionItems) = preProject
+		Formularios\Desactualizados\ActividadDAO.vb = Formularios\Desactualizados\ActividadDAO.vb
+		Formularios\Desactualizados\ActividadNegocio.vb = Formularios\Desactualizados\ActividadNegocio.vb
+		Formularios\Desactualizados\ActividadProductor.vb = Formularios\Desactualizados\ActividadProductor.vb
+		Formularios\Desactualizados\EmpresaAsociada.vb = Formularios\Desactualizados\EmpresaAsociada.vb
+		Formularios\Desactualizados\EstadoFormularioProdPrim.vb = Formularios\Desactualizados\EstadoFormularioProdPrim.vb
+		Formularios\Desactualizados\Feedback.vb = Formularios\Desactualizados\Feedback.vb
+		Formularios\Desactualizados\Frecuencia.vb = Formularios\Desactualizados\Frecuencia.vb
+		Formularios\Desactualizados\Instituciones.vb = Formularios\Desactualizados\Instituciones.vb
+		Formularios\Desactualizados\Mercado.vb = Formularios\Desactualizados\Mercado.vb
+		Formularios\Desactualizados\PP_Form_Comercio.aspx = Formularios\Desactualizados\PP_Form_Comercio.aspx
+		Formularios\Desactualizados\PP_Form_Comercio.aspx.designer.vb = Formularios\Desactualizados\PP_Form_Comercio.aspx.designer.vb
+		Formularios\Desactualizados\PP_Form_Comercio.aspx.vb = Formularios\Desactualizados\PP_Form_Comercio.aspx.vb
+		Formularios\Desactualizados\PP_Form_Terrenos.aspx = Formularios\Desactualizados\PP_Form_Terrenos.aspx
+		Formularios\Desactualizados\PP_Form_Terrenos.aspx.designer.vb = Formularios\Desactualizados\PP_Form_Terrenos.aspx.designer.vb
+		Formularios\Desactualizados\PP_Form_Terrenos.aspx.vb = Formularios\Desactualizados\PP_Form_Terrenos.aspx.vb
+		Formularios\Desactualizados\Producto.vb = Formularios\Desactualizados\Producto.vb
+		Formularios\Desactualizados\ProductoProductor.vb = Formularios\Desactualizados\ProductoProductor.vb
+		Formularios\Desactualizados\ProductosDAO.vb = Formularios\Desactualizados\ProductosDAO.vb
+		Formularios\Desactualizados\ProductosNegocio.vb = Formularios\Desactualizados\ProductosNegocio.vb
+		Formularios\Desactualizados\PruebaPassword.aspx = Formularios\Desactualizados\PruebaPassword.aspx
+		Formularios\Desactualizados\PruebaPassword.aspx.designer.vb = Formularios\Desactualizados\PruebaPassword.aspx.designer.vb
+		Formularios\Desactualizados\PruebaPassword.aspx.vb = Formularios\Desactualizados\PruebaPassword.aspx.vb
+		Formularios\Desactualizados\Tenencia.vb = Formularios\Desactualizados\Tenencia.vb
+		Formularios\Desactualizados\Terreno.vb = Formularios\Desactualizados\Terreno.vb
+		Formularios\Desactualizados\TerrenoDAO.vb = Formularios\Desactualizados\TerrenoDAO.vb
+		Formularios\Desactualizados\TerrenoNegocio.vb = Formularios\Desactualizados\TerrenoNegocio.vb
+		Formularios\Desactualizados\Territorio.vb = Formularios\Desactualizados\Territorio.vb
+		Formularios\Desactualizados\UnidadArea.vb = Formularios\Desactualizados\UnidadArea.vb
+		Formularios\Desactualizados\UnidadCantidad.vb = Formularios\Desactualizados\UnidadCantidad.vb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF8582B-806F-482A-B26F-B628C179B6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF8582B-806F-482A-B26F-B628C179B6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF8582B-806F-482A-B26F-B628C179B6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF8582B-806F-482A-B26F-B628C179B6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69967135-EB40-4A3B-8784-88901DB55C2B}
+	EndGlobalSection
+EndGlobal
