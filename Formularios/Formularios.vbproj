@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Formularios</RootNamespace>
+    <AssemblyName>Formularios</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNet.ScriptManager.bootstrap, Version=3.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.3.7\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.3.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.Design, Version=2023.2.714.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\Bin45\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.Spreadsheet">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\AdditionalLibraries\Bin45\Telerik.Web.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2023.2.714.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\Bin45\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\Bin45\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.DrawingML">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\AdditionalLibraries\Bin45\Telerik.Windows.Documents.DrawingML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\AdditionalLibraries\Bin45\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R2 2023\AdditionalLibraries\Bin45\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.Routing" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\General.css" />
+    <Content Include="Content\sidebar.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="images\master\CnpLogo2.jpg" />
+    <Content Include="Scripts\sidebar.js" />
+    <Content Include="Usuario Interno\Iniciar_Sesion.aspx" />
+    <Content Include="Usuario Interno\UI_Archivo_PP.aspx" />
+    <Content Include="Usuario Interno\UI_Archivo_SA.aspx" />
+    <Content Include="Usuario Interno\UI_Modificar_PP.aspx" />
+    <Content Include="Usuario Interno\UI_Pendientes_PP.aspx" />
+    <Content Include="Usuario Interno\UI_Pendientes_SA.aspx" />
+    <Content Include="Usuario Interno\UI_Registro.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_1_InfoPP.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_2_RLPP.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_3_LineaAbPP.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_4_CertPP.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion PP\VW_Proceso_Resolucion.aspx" />
+    <Content Include="Usuario Interno\UI_Modificar_SA.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_1_InfoSA.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_2_RLSA.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_3_InfoContaSA.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_4_CertSA.aspx" />
+    <Content Include="Usuario Interno\Vista Inscripcion SA\VW_Inspeccion_Tecnica.aspx" />
+    <Content Include="Usuario\Error.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Productor Primario\PP_Form_3_LineaAb.aspx" />
+    <Content Include="Productor Primario\PP_Form_2_RL.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\master\Ingreso de usuario.jpg" />
+    <Content Include="images\master\registro de usuario.jpg" />
+    <Content Include="images\master\Seleccion de formulario.jpg" />
+    <Content Include="images\navegacion\basketmarket.png" />
+    <Content Include="images\navegacion\shopping_cart.png" />
+    <Content Include="Productor Primario\PP_Consultar_Historial.aspx" />
+    <Content Include="Suplidores\SA_Consultar_Historial.aspx" />
+    <Content Include="Suplidores\SA_Form_1_Info.aspx" />
+    <Content Include="Suplidores\SA_Form_2_RL.aspx" />
+    <Content Include="Suplidores\SA_Form_3_InfoContable.aspx" />
+    <Content Include="Suplidores\SA_Form_4_Cert.aspx" />
+    <Content Include="Suplidores\SA_Form_5_Aviso.aspx" />
+    <Content Include="Suplidores\SA_Form_6_Final.aspx" />
+    <Content Include="Usuario\Ingreso.aspx" />
+    <Content Include="Productor Primario\PP_Form_4_Cert.aspx" />
+    <Content Include="Productor Primario\PP_Form_1_Info.aspx" />
+    <Content Include="Productor Primario\PP_Form_5_Aviso.aspx" />
+    <Content Include="Productor Primario\PP_Form_6_Final.aspx" />
+    <Content Include="Usuario\Recuperar_Pass.aspx" />
+    <Content Include="Usuario\Registro.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="fonts\Henderson Sans Basic Bold.ttf" />
+    <Content Include="fonts\Henderson Sans Basic Light %283%29.ttf" />
+    <Content Include="fonts\Henderson Sans Basic SemiBd %283%29.ttf" />
+    <Content Include="Content\Documentos\Carta de compromiso Productor Primario.pdf" />
+    <Content Include="Content\Documentos\Carta de compromiso suplidor de acopio.pdf" />
+    <Content Include="Content\Documentos\CARTA DE COMPROMISOS PARA INGRESAR COMO AGROINDUSTRIA.pdf" />
+    <Content Include="Content\Documentos\DECLARACION JURADA SUPLIDOR DE ACOPIO Y PROCESAMIENTO.pdf" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Usuario\Selector_Formulario.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.vb" />
+    <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Usuario Interno\Iniciar_Sesion.aspx.designer.vb">
+      <DependentUpon>Iniciar_Sesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Iniciar_Sesion.aspx.vb">
+      <DependentUpon>Iniciar_Sesion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Archivo_PP.aspx.designer.vb">
+      <DependentUpon>UI_Archivo_PP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Archivo_PP.aspx.vb">
+      <DependentUpon>UI_Archivo_PP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Archivo_SA.aspx.designer.vb">
+      <DependentUpon>UI_Archivo_SA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Archivo_SA.aspx.vb">
+      <DependentUpon>UI_Archivo_SA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Modificar_PP.aspx.designer.vb">
+      <DependentUpon>UI_Modificar_PP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Modificar_PP.aspx.vb">
+      <DependentUpon>UI_Modificar_PP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Pendientes_PP.aspx.designer.vb">
+      <DependentUpon>UI_Pendientes_PP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Pendientes_PP.aspx.vb">
+      <DependentUpon>UI_Pendientes_PP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Pendientes_SA.aspx.designer.vb">
+      <DependentUpon>UI_Pendientes_SA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Pendientes_SA.aspx.vb">
+      <DependentUpon>UI_Pendientes_SA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Registro.aspx.designer.vb">
+      <DependentUpon>UI_Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Registro.aspx.vb">
+      <DependentUpon>UI_Registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_1_InfoPP.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_1_InfoPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_1_InfoPP.aspx.vb">
+      <DependentUpon>VW_Inscrip_1_InfoPP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_2_RLPP.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_2_RLPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_2_RLPP.aspx.vb">
+      <DependentUpon>VW_Inscrip_2_RLPP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_3_LineaAbPP.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_3_LineaAbPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_3_LineaAbPP.aspx.vb">
+      <DependentUpon>VW_Inscrip_3_LineaAbPP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_4_CertPP.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_4_CertPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Inscrip_4_CertPP.aspx.vb">
+      <DependentUpon>VW_Inscrip_4_CertPP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Proceso_Resolucion.aspx.designer.vb">
+      <DependentUpon>VW_Proceso_Resolucion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion PP\VW_Proceso_Resolucion.aspx.vb">
+      <DependentUpon>VW_Proceso_Resolucion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Modificar_SA.aspx.designer.vb">
+      <DependentUpon>UI_Modificar_SA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\UI_Modificar_SA.aspx.vb">
+      <DependentUpon>UI_Modificar_SA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_1_InfoSA.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_1_InfoSA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_1_InfoSA.aspx.vb">
+      <DependentUpon>VW_Inscrip_1_InfoSA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_2_RLSA.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_2_RLSA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_2_RLSA.aspx.vb">
+      <DependentUpon>VW_Inscrip_2_RLSA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_3_InfoContaSA.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_3_InfoContaSA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_3_InfoContaSA.aspx.vb">
+      <DependentUpon>VW_Inscrip_3_InfoContaSA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_4_CertSA.aspx.designer.vb">
+      <DependentUpon>VW_Inscrip_4_CertSA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inscrip_4_CertSA.aspx.vb">
+      <DependentUpon>VW_Inscrip_4_CertSA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inspeccion_Tecnica.aspx.designer.vb">
+      <DependentUpon>VW_Inspeccion_Tecnica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario Interno\Vista Inscripcion SA\VW_Inspeccion_Tecnica.aspx.vb">
+      <DependentUpon>VW_Inspeccion_Tecnica.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\Error.aspx.designer.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\Error.aspx.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_3_LineaAb.aspx.designer.vb">
+      <DependentUpon>PP_Form_3_LineaAb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_3_LineaAb.aspx.vb">
+      <DependentUpon>PP_Form_3_LineaAb.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_2_RL.aspx.designer.vb">
+      <DependentUpon>PP_Form_2_RL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_2_RL.aspx.vb">
+      <DependentUpon>PP_Form_2_RL.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Consultar_Historial.aspx.designer.vb">
+      <DependentUpon>PP_Consultar_Historial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Consultar_Historial.aspx.vb">
+      <DependentUpon>PP_Consultar_Historial.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Suplidores\SA_Consultar_Historial.aspx.designer.vb">
+      <DependentUpon>SA_Consultar_Historial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suplidores\SA_Consultar_Historial.aspx.vb">
+      <DependentUpon>SA_Consultar_Historial.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_1_Info.aspx.designer.vb">
+      <DependentUpon>SA_Form_1_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_1_Info.aspx.vb">
+      <DependentUpon>SA_Form_1_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_2_RL.aspx.designer.vb">
+      <DependentUpon>SA_Form_2_RL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_2_RL.aspx.vb">
+      <DependentUpon>SA_Form_2_RL.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_3_InfoContable.aspx.designer.vb">
+      <DependentUpon>SA_Form_3_InfoContable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_3_InfoContable.aspx.vb">
+      <DependentUpon>SA_Form_3_InfoContable.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_4_Cert.aspx.designer.vb">
+      <DependentUpon>SA_Form_4_Cert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_4_Cert.aspx.vb">
+      <DependentUpon>SA_Form_4_Cert.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_5_Aviso.aspx.designer.vb">
+      <DependentUpon>SA_Form_5_Aviso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_5_Aviso.aspx.vb">
+      <DependentUpon>SA_Form_5_Aviso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_6_Final.aspx.designer.vb">
+      <DependentUpon>SA_Form_6_Final.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suplidores\SA_Form_6_Final.aspx.vb">
+      <DependentUpon>SA_Form_6_Final.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\Ingreso.aspx.designer.vb">
+      <DependentUpon>Ingreso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\Ingreso.aspx.vb">
+      <DependentUpon>Ingreso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_4_Cert.aspx.designer.vb">
+      <DependentUpon>PP_Form_4_Cert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_4_Cert.aspx.vb">
+      <DependentUpon>PP_Form_4_Cert.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_1_Info.aspx.designer.vb">
+      <DependentUpon>PP_Form_1_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_1_Info.aspx.vb">
+      <DependentUpon>PP_Form_1_Info.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_5_Aviso.aspx.designer.vb">
+      <DependentUpon>PP_Form_5_Aviso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_5_Aviso.aspx.vb">
+      <DependentUpon>PP_Form_5_Aviso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_6_Final.aspx.designer.vb">
+      <DependentUpon>PP_Form_6_Final.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Productor Primario\PP_Form_6_Final.aspx.vb">
+      <DependentUpon>PP_Form_6_Final.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\Recuperar_Pass.aspx.designer.vb">
+      <DependentUpon>Recuperar_Pass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\Recuperar_Pass.aspx.vb">
+      <DependentUpon>Recuperar_Pass.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\Registro.aspx.designer.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\Registro.aspx.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\Selector_Formulario.aspx.designer.vb">
+      <DependentUpon>Selector_Formulario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\Selector_Formulario.aspx.vb">
+      <DependentUpon>Selector_Formulario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.vb">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.vb">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="ViewSwitcher.ascx" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackEnd\BackEnd.vbproj">
+      <Project>{faf8582b-806f-482a-b26f-b628c179b6ab}</Project>
+      <Name>BackEnd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58915</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58915/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseJQuerySupport="False" UseAjaxifiedTemplates="False" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,439 @@
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\csc.exe
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\vbc.exe
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\BackEnd.dll.config
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\BackEnd.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\BackEnd.pdb
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\BackEnd.xml
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\EntityFramework.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\EntityFramework.xml
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\es\EntityFramework.resources.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.Cache
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\mvillalobos\documents\visual studio 2015\Projects\CLAUDES\BackEnd\obj\Debug\BackEnd.pdb
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\csc.exe
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\vbc.exe
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\VBCSCompiler.exe
+D:\Sources\CLAUDES\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\Sources\CLAUDES\BackEnd\bin\BackEnd.dll.config
+D:\Sources\CLAUDES\BackEnd\bin\BackEnd.dll
+D:\Sources\CLAUDES\BackEnd\bin\BackEnd.pdb
+D:\Sources\CLAUDES\BackEnd\bin\BackEnd.xml
+D:\Sources\CLAUDES\BackEnd\bin\EntityFramework.dll
+D:\Sources\CLAUDES\BackEnd\bin\EntityFramework.SqlServer.dll
+D:\Sources\CLAUDES\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+D:\Sources\CLAUDES\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+D:\Sources\CLAUDES\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sources\CLAUDES\BackEnd\bin\EntityFramework.xml
+D:\Sources\CLAUDES\BackEnd\bin\EntityFramework.SqlServer.xml
+D:\Sources\CLAUDES\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sources\CLAUDES\BackEnd\bin\es\EntityFramework.resources.dll
+D:\Sources\CLAUDES\BackEnd\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Sources\CLAUDES\BackEnd\obj\Debug\BackEnd.Resources.resources
+D:\Sources\CLAUDES\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+D:\Sources\CLAUDES\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+D:\Sources\CLAUDES\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+D:\Sources\CLAUDES\BackEnd\obj\Debug\BackEnd.dll
+D:\Sources\CLAUDES\BackEnd\obj\Debug\BackEnd.xml
+D:\Sources\CLAUDES\BackEnd\obj\Debug\BackEnd.pdb
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\csc.exe
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\BackEnd.dll.config
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\BackEnd.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\BackEnd.pdb
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\BackEnd.xml
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\EntityFramework.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\EntityFramework.xml
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+D:\Sources\Inscripciones\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+D:\Sources\Inscripciones\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\csc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\vbc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\BackEnd.dll.config
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\EntityFramework.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\EntityFramework.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones 3.0\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\csc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\BackEnd.dll.config
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\EntityFramework.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\EntityFramework.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\InscripcionesNuevo1\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\csc.exe
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\BackEnd.dll.config
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\BackEnd.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\BackEnd.pdb
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\BackEnd.xml
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\EntityFramework.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\EntityFramework.xml
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+D:\Sources\InscripcionesGH\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\csc.exe
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+D:\Sources\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\Sources\Inscripciones\BackEnd\bin\BackEnd.dll.config
+D:\Sources\Inscripciones\BackEnd\bin\BackEnd.dll
+D:\Sources\Inscripciones\BackEnd\bin\BackEnd.pdb
+D:\Sources\Inscripciones\BackEnd\bin\BackEnd.xml
+D:\Sources\Inscripciones\BackEnd\bin\EntityFramework.dll
+D:\Sources\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+D:\Sources\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+D:\Sources\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+D:\Sources\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sources\Inscripciones\BackEnd\bin\EntityFramework.xml
+D:\Sources\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+D:\Sources\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+D:\Sources\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\csc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\BackEnd.dll.config
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\EntityFramework.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\EntityFramework.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Escritorio\Proyecto\Inscripciones\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\BackEnd.dll.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\csc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\csc.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\csc.rsp
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\csi.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\csi.rsp
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\System.AppContext.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\vbc.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\vbc.rsp
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\EntityFramework.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\EntityFramework.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Inscripciones\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\BackEnd.dll.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\BackEnd.pdb
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\csc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\csc.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\csc.rsp
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\csi.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\csi.rsp
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\System.AppContext.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\vbc.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\vbc.rsp
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\EntityFramework.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\EntityFramework.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\rortega.CNP\OneDrive - CNP\Raul Ortega\Proyecto Formulario Productor Primario\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\BackEnd.dll.config
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\BackEnd.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\BackEnd.pdb
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\BackEnd.xml
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\csc.exe
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\csc.exe.config
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\csc.rsp
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\csi.exe
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\csi.rsp
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\System.AppContext.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\vbc.exe
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\vbc.exe.config
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\vbc.rsp
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\EntityFramework.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\EntityFramework.xml
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\yaguilar\Documents\GitHub\Inscripciones\BackEnd\obj\Debug\BackEnd.pdb
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\BackEnd.dll.config
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\BackEnd.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\BackEnd.pdb
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\BackEnd.xml
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\csc.exe
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\csc.exe.config
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\csc.rsp
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\csi.exe
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\csi.rsp
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\System.AppContext.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\vbc.exe
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\vbc.exe.config
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\vbc.rsp
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\EntityFramework.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\Microsoft.AspNet.DynamicData.EFProvider.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\EntityFramework.xml
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.vbprojAssemblyReference.cache
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.Resources.resources
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.vbproj.GenerateResource.cache
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.vbproj.CoreCompileInputs.cache
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.vbproj.CopyComplete
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.dll
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.xml
+C:\Users\yaguilar\Documents\GitHub\Sistema-de-Inscripciones-CNP\BackEnd\obj\Debug\BackEnd.pdb

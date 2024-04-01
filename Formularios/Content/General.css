@@ -1,0 +1,152 @@
+﻿@font-face {
+    font-family: 'Henderson Sans Basic Light';
+    src: url('../fonts/Henderson Sans Basic Light (3).ttf') format('truetype');
+}
+
+.fuente-especial {
+    font-family: 'Henderson Sans Basic Light';
+}
+
+.container-fluid {
+    max-width: 1200px; /* Puedes ajustar el valor según tus necesidades */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rcbInput,
+.rcbReadOnly {
+    font-family: Henderson Sans Basic Light;
+    font-size: small
+}
+
+/* Cambiar la fuente de la lista desplegable del RadComboBox */
+.rcbList {
+    font-family: Henderson Sans Basic Light;
+    font-size: small
+}
+
+body {
+    font-family: Henderson Sans Basic Light;
+    font-size: small
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::placeholder {
+    font-size: small;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    width: 100%;
+    height: 30px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-izq-espacio {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-izq-etiquetas {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-centro-entradas {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-der-espacio {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-izq-espacio,
+    .col-izq-etiquetas,
+    .col-centro-entradas,
+    .col-der-espacio,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.sombra-texto {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sombra-caja {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn.sombra-caja {
+    background-color: #282c54; /* Fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border-color: #ffffff; /* Color del borde del botón, si es necesario */
+}
+
+#chkAceptarTerminos {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Estilo del tooltip */
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    color: white;
+    font-size: 12px;
+    background-color: #282c54;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.hover-text:hover .tooltip-text {
+    visibility: visible;
+}
+
+#bottom {
+    top: 50px;
+    left: -50px;
+}
+
+.hover-text {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    font-family: Arial;
+    text-align: left;
+}

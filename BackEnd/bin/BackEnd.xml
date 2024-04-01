@@ -1,0 +1,1589 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BackEnd
+</name>
+</assembly>
+<members>
+<member name="T:BackEnd.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:BackEnd.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:BackEnd.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:BackEnd.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:BackEnd.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:BackEnd.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="M:BackEnd.ActividadComercialDAO.eliminarActividadComercial(System.String)">
+ <param name="Codigo">Código de la actividad comercial a eliminar.</param>
+ <returns>El código de la actividad comercial eliminado.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesDAO.insertarCertificado(BackEnd.Certificaciones)">
+ <param name="modelo">El objeto Certificacion que contiene los datos del certificado.</param>
+ <returns>El objeto Certificacion insertado.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesDAO.buscarCertifiInscripcion(System.String)">
+ <param name="inscripcion">La inscripción del suplidor cuyos certificados se buscan.</param>
+ <returns>Una colección de objetos Certificacion que representan los certificados de inscripción.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesDAO.eliminarCertificacion(System.String)">
+ Elimina un certificado de inscripción primario de la base de datos.
+ <param name="codigo">El código del certificado a eliminar.</param>
+ <returns>El código del certificado eliminado.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesDAO.buscarCamposDocumento(System.String)">
+ Busca los campos requeridos para el documento especifico.
+ <param name="documento">El codigo del certificado o documento que se necesita buscar.</param>
+ <returns>un modelo con los campos necesarios para ese documento.</returns>
+</member>
+<member name="M:BackEnd.InformacionContableDAO.cargarDatosContables(System.String)">
+ <param name="inscripcion">La inscripción del suplidor.</param>
+ <returns>El objeto ActividadContable correspondiente a la inscripción.</returns>
+</member>
+<member name="M:BackEnd.InformacionContableDAO.ActualizarInfoContable(System.String,BackEnd.ActividadContable)">
+ <summary>
+ Actualiza los datos de inscripción de un suplidor en la base de datos.
+ </summary>
+ <param name="inscripcion">El código de inscripción del suplidor.</param>
+ <param name="modelo">El objeto Productor que contiene los nuevos datos del suplidor.</param>
+ <returns>El objeto ActividadContable con los datos actualizados.</returns>
+</member>
+<member name="T:BackEnd.CertificadoDAO">
+ <summary>
+ Clase que proporciona métodos para interactuar con la base de datos relacionados con la certificación de productores.
+ </summary>
+</member>
+<member name="P:BackEnd.CertificadoDAO.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase CertificadoDAO utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.CertificadoDAO.insertarCertificado(BackEnd.Certificacion)">
+ <summary>
+ Inserta un certificado en la base de datos.
+ </summary>
+ <param name="modelo">El objeto Certificacion que contiene los datos del certificado.</param>
+ <returns>El objeto Certificacion insertado.</returns>
+</member>
+<member name="M:BackEnd.CertificadoDAO.buscarCertifiInscripcion(System.String)">
+ <summary>
+ Busca los certificados de inscripción de un productor en la base de datos y los devuelve en una colección.
+ </summary>
+ <param name="inscripcion">La inscripción del productor cuyos certificados se buscan.</param>
+ <returns>Una colección de objetos Certificacion que representan los certificados de inscripción.</returns>
+</member>
+<member name="M:BackEnd.CertificadoDAO.eliminarCertificaInnPrimario(System.String)">
+ <summary>
+ Elimina un certificado de inscripción primario de la base de datos.
+ </summary>
+ <param name="codigo">El código del certificado a eliminar.</param>
+ <returns>El código del certificado eliminado.</returns>
+</member>
+<member name="M:BackEnd.CertificadoDAO.buscarCamposDocumento(System.String)">
+ <summary>
+ Busca los campos requeridos para el documento especifico.
+ </summary>
+ <param name="documento">El codigo del certificado o documento que se necesita buscar.</param>
+ <returns>un modelo con los campos necesarios para ese documento.</returns>
+</member>
+<member name="T:BackEnd.InformacionGralDAO">
+ <summary>
+ Clase para interactuar con la base de datos y realizar operaciones relacionadas con la información general.
+ </summary>
+</member>
+<member name="P:BackEnd.InformacionGralDAO.Instancia">
+ <summary>
+ Propiedad de solo lectura que implementa el patrón Singleton para asegurar una única instancia de la clase.
+ </summary>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarColeccionTipoCedulas">
+ <summary>
+ Busca y retorna una colección de tipos de cédulas desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos TipoCedula.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarTipoCertifica">
+ <summary>
+ Busca y retorna una colección de tipos de certificado desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos TipoCertificado.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarColeccionTipoProduccion">
+ <summary>
+ Busca y retorna una colección de tipos de producción desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos TipoProduccion.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarProvincias">
+ <summary>
+ Busca y retorna una colección de provincias desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos General.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarCanton(System.String)">
+ <summary>
+ Busca y retorna una colección de cantones de una provincia específica desde la base de datos.
+ </summary>
+ <param name="provincia">El código de la provincia.</param>
+ <returns>Una colección de objetos General.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarDistrito(System.String)">
+ <summary>
+ Busca y retorna una colección de distritos de un cantón específico desde la base de datos.
+ </summary>
+ <param name="canton">El código del cantón.</param>
+ <returns>Una colección de objetos General.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarRegion(System.String)">
+ <summary>
+ Busca y retorna el codigo de la region a la que pertenece el distrito especifico.
+ </summary>
+ <param name="distrito">El código del distrito.</param>
+ <returns>El codigo de la region.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarEtnias">
+ <summary>
+ Busca y retorna una colección de tipos tipos de etnias desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarEstadoCivil">
+ <summary>
+ Busca y retorna una colección de tipos tipos de estados civiles desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarEscolaridad">
+ <summary>
+ Busca y retorna una colección de tipos de escolaridades desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarDiscapacidad">
+ <summary>
+ Busca y retorna una colección de tipos de discapacidades desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarEstadosCCSS">
+ <summary>
+ Busca y retorna una colección de estados CCSS desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.buscarColeccionTipoProductor">
+ Busca y retorna una colección de tipos de productores desde la base de datos.
+ <returns>Una colección de objetos TipoProductor.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.agregarDiscapacidad(BackEnd.Discapacidad)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto Discapacidad que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralDAO.nuevoTipoCertificacion(BackEnd.Certificaciones)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto Discapacidad que contiene los datos.</returns>
+</member>
+<member name="T:BackEnd.LinAbastecimientoDAO">
+ <summary>
+ Clase que proporciona métodos para interactuar con la base de datos relacionados con la actividad de un productor.
+ </summary>
+</member>
+<member name="P:BackEnd.LinAbastecimientoDAO.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase ActividadNegocio utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.agregarLineaAb(BackEnd.DatosFormulario)">
+ Inserta una actividad de un productor en la base de datos.
+ <param  name="modelo"> El objeto DatosFormulario que contiene los datos de la actividad.</param>
+ <returns> El objeto modelo insertado.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.traerLineasAb(System.String)">
+ <summary>
+ Obtiene una colección de líneas de abastecimiento asociados a un productor.
+ </summary>
+ <param name="Inscripcion">El código del productor.</param>
+ <returns>Una colección de objetos líneas de abastecimiento asociados al productor.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.eliminarLineaAb(System.String)">
+ <summary>
+ Elimina una línea de abastecimiento de la base de datos.
+ </summary>
+ <param name="Codigo">Código de la línea de abastecimiento a eliminar.</param>
+ <returns>El código de la línea de abastecimiento eliminado.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.buscarCategoriasProducto">
+ <summary>
+ Busca y retorna una colección de categorías desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos LineaAbastecimiento.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.buscarProductosHorto">
+ <summary>
+ Busca y retorna una colección de productos desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos LineaAbastecimiento.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.cargarUnidadesMedida">
+ <summary>
+ Busca y retorna una colección de unidades de medida desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos LineaAbastecimiento.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.cargarFrecuencia">
+ <summary>
+ Busca y retorna una colección de unidades de medida desde la base de datos.
+ </summary>
+ <returns>Una colección de objetos LineaAbastecimiento.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.nuevaLineaAb(BackEnd.LineaAbastecimiento)">
+ <param name="modelo">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto LineaAbastecimiento que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.nuevoProductoHorto(BackEnd.ProductosHorto)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto ProductosHorto que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.nuevaUnidadMedida(BackEnd.UnidadesMedida)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto ProductosHorto que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoDAO.nuevaFrecuencia(BackEnd.FrecuenciaProduccion)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto ProductosHorto que contiene los datos.</returns>
+</member>
+<member name="T:BackEnd.ParametroDAO">
+ <summary>
+ Clase que proporciona métodos para interactuar con la base de datos relacionados con parámetros.
+ </summary>
+</member>
+<member name="P:BackEnd.ParametroDAO.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase ParametroDAO utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.ParametroDAO.traerParametros(System.String)">
+ <summary>
+ Trae el valor de un parámetro de la base de datos dado su nombre.
+ </summary>
+ <param name="nombre">El nombre del parámetro cuyo valor se busca.</param>
+ <returns>El valor del parámetro.</returns>
+</member>
+<member name="T:BackEnd.ProductorDAO">
+ <summary>
+ Clase que proporciona métodos para interactuar con la base de datos relacionados con productores.
+ </summary>
+</member>
+<member name="P:BackEnd.ProductorDAO.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase ProductorDAO utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.ProductorDAO.insertarInscripcionProductor(BackEnd.Productor)">
+ <summary>
+ Inserta la inscripción de un productor en la base de datos.
+ </summary>
+ <param name="modelo">El objeto Productor que contiene los datos del productor a inscribir.</param>
+ <returns>El código del nuevo productor inscrito.</returns>
+</member>
+<member name="M:BackEnd.ProductorDAO.actualizarInscripcionProductor(System.String,BackEnd.Productor)">
+ <summary>
+ Actualiza los datos de inscripción de un productor en la base de datos.
+ </summary>
+ <param name="inscripcion">El código de inscripción del productor.</param>
+ <param name="modelo">El objeto Productor que contiene los nuevos datos del productor.</param>
+ <returns>El objeto Productor con los datos actualizados.</returns>
+</member>
+<member name="M:BackEnd.ProductorDAO.actualizarEstadoInscripcion(System.String)">
+ <summary>
+ Actualiza el estado de inscripción de un productor en la base de datos.
+ </summary>
+ <param name="inscripcion">El código de inscripción del productor.</param>
+ <returns>True si se actualizó el estado correctamente, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.ProductorDAO.traerDatosProductor(System.String)">
+ <summary>
+ Trae los datos de un productor dado su código de inscripción.
+ </summary>
+ <param name="inscripcion">El código de inscripción del productor.</param>
+ <returns>El objeto Productor con los datos del productor.</returns>
+</member>
+<member name="M:BackEnd.ProductorDAO.traerHistorial(System.String)">
+ <summary>
+ Trae el historial de inscripciones de un productor.
+ </summary>
+ <param name="cedula">El código de inscripción del productor.</param>
+ <returns>El objeto Productor con los datos del productor.</returns>
+</member>
+<member name="M:BackEnd.ProductorDAO.buscarEstadosInscripcion(System.String)">
+ <summary>
+ Obtiene una lista de estados de inscripción de un productor a partir de su número de cédula.
+ </summary>
+ <param name="cedula">El número de cédula del productor.</param>
+ <returns>Una lista de objetos EstadosInscripcion.</returns>
+</member>
+<member name="T:BackEnd.RepLegalDAO">
+ <summary>
+ Clase que proporciona métodos para interactuar con la base de datos relacionados con representantes legales.
+ </summary>
+</member>
+<member name="P:BackEnd.RepLegalDAO.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase RepLegalDAO utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.RepLegalDAO.insertarRepLegal(BackEnd.RepresentanteLegal)">
+ <summary>
+ Inserta o actualiza un representante legal en la base de datos.
+ </summary>
+ <param name="modelo">El objeto RepresentanteLegal a insertar o actualizar.</param>
+ <returns>El objeto RepresentanteLegal insertado o actualizado.</returns>
+</member>
+<member name="M:BackEnd.RepLegalDAO.sinRepLegal(BackEnd.RepresentanteLegal)">
+ <summary>
+ Obtiene si la inscripción tiene o no un representante legal.
+ </summary>
+ <param name="modelo">trae la inscripción del productor.</param>
+</member>
+<member name="M:BackEnd.RepLegalDAO.traerDatosRepLegal(System.String)">
+ <summary>
+ Obtiene los datos de un representante legal por su inscripción.
+ </summary>
+ <param name="inscripcion">La inscripción del representante legal.</param>
+ <returns>El objeto RepresentanteLegal correspondiente a la inscripción.</returns>
+</member>
+<member name="M:BackEnd.RepLegalDAO.cargarRLSuplidor(System.String)">
+ <param name="inscripcion">La inscripción del representante legal.</param>
+ <returns>El objeto RepresentanteLegal correspondiente a la inscripción.</returns>
+</member>
+<member name="M:BackEnd.RepLegalDAO.insertarRLSuplidor(BackEnd.RepresentanteLegal)">
+ <summary>
+ Inserta o actualiza un representante legal en la base de datos.
+ </summary>
+ <param name="modelo">El objeto RepresentanteLegal a insertar o actualizar.</param>
+ <returns>El objeto RepresentanteLegal insertado o actualizado.</returns>
+</member>
+<member name="T:BackEnd.UsuarioDAO">
+ <summary>
+ Clase que proporciona métodos para interactuar con la base de datos relacionados con usuarios.
+ </summary>
+</member>
+<member name="P:BackEnd.UsuarioDAO.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase UsuarioDAO utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.UsuarioDAO.verificarRespuestaPregunta(System.String,System.String,System.String)">
+ <summary>
+ Verifica si la respuesta a la pregunta de seguridad es correcta para un usuario dado.
+ </summary>
+ <param name="cedula">La cédula del usuario.</param>
+ <param name="codigo">El código de la pregunta de seguridad.</param>
+ <param name="respuesta">La respuesta a la pregunta de seguridad.</param>
+ <returns>True si la respuesta es correcta, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.guardarUsuarioNuevo(BackEnd.Usuario)">
+ <summary>
+ Registra un nuevo usuario en la base de datos.
+ </summary>
+ <param name="modelo">El objeto Usuario a registrar.</param>
+ <returns>El objeto Usuario registrado.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.validarCedulaUsuario(System.String)">
+ <summary>
+ Verifica si una cédula de usuario ya está registrada en la base de datos.
+ </summary>
+ <param name="cedula">La cédula a verificar.</param>
+ <returns>True si la cédula ya está registrada, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.validarCorreoUsuario(System.String)">
+ <summary>
+ Verifica si una dirección de correo electrónico de usuario ya está registrada en la base de datos.
+ </summary>
+ <param name="correo">La dirección de correo electrónico a verificar.</param>
+ <returns>True si la dirección de correo ya está registrada, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.validarPassword(BackEnd.Usuario)">
+ <summary>
+ Valida las credenciales de inicio de sesión de un usuario.
+ </summary>
+ <param name="modelo">El objeto Usuario con las credenciales a validar.</param>
+ <returns>True si las credenciales son válidas, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.traerDatosUsuario(System.String)">
+ <summary>
+ Obtiene los datos de un usuario a partir de su cédula.
+ </summary>
+ <param name="cedula">La cédula del usuario.</param>
+ <returns>El objeto Usuario con los datos del usuario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.buscarPreguntas">
+ <summary>
+ Obtiene una lista de preguntas desde la base de datos.
+ </summary>
+ <returns>Una lista de objetos Preguntas_Access.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.guardarRespuestas(System.Collections.Generic.List{BackEnd.Respuestas_Access})">
+ <summary>
+ Guarda las respuestas en la base de datos.
+ </summary>
+ <param name="listaModelos">La lista de respuestas a guardar.</param>
+ <returns>La lista de respuestas guardadas.</returns>
+</member>
+<member name="M:BackEnd.UsuarioDAO.modificarPassword(BackEnd.Usuario)">
+ actualiza la password asociada a una cédula.
+ <param name="modelo">vienen los datos de la cédula y la pass que ya existe.</param>
+</member>
+<member name="M:BackEnd.SuplidorDAO.actualizarInscripcionSuplidor(System.String,BackEnd.Suplidor)">
+ Actualiza los datos de inscripción de un suplidor en la base de datos.
+ <param name="inscripcion">El código de inscripción del suplidor.</param>
+ <param name="modelo">El objeto Productor que contiene los nuevos datos del suplidor.</param>
+ <returns>El objeto Suplidor con los datos actualizados.</returns>
+</member>
+<member name="M:BackEnd.SuplidorDAO.buscarEstadosInscripcion(System.String)">
+ <param name="cedula">El número de cédula del suplidor.</param>
+ <returns>Una lista de objetos EstadosInscripcion.</returns>
+</member>
+<member name="M:BackEnd.SuplidorDAO.cargarDatosSuplidor(System.String)">
+ <param name="inscripcion">El código de inscripción del suplidor.</param>
+ <returns>El objeto Suplidor con los datos del suplidor.</returns>
+</member>
+<member name="M:BackEnd.SuplidorDAO.actualizarEstadoInscripcion(System.String)">
+ <param name="inscripcion">El código de inscripción del suplidor.</param>
+ <returns>True si se actualizó el estado correctamente, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.SuplidorDAO.traerHistorial(System.String)">
+ <param name="cedula">El código de inscripción del suplidor.</param>
+ <returns>El objeto Suplidor con los datos del suplidor.</returns>
+</member>
+<member name="M:BackEnd.ActividadComercialNegocio.preCargarActividades(System.String)">
+ <param name="Inscripcion">Código del suplidor.</param>
+ <returns>Una colección de objetos líneas de abastecimiento asociados al suplidor.</returns>
+</member>
+<member name="M:BackEnd.ActividadComercialNegocio.eliminarActividadComercial(System.String)">
+ <param name="Codigo">Código de la actividad comercial a eliminar.</param>
+ <returns>El código de la actividad comercial eliminado.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesNegocio.insertarCertificado(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <param name="inscripcion">La inscripción del productor.</param>
+ <param name="tipoCertificado">El tipo de certificado.</param>
+ <param name="numeroC">El número del certificado.</param>
+ <param name="rutaArch">La ruta del archivo del certificado.</param>
+ <param name="extension">La extensión del archivo del certificado.</param>
+ <param name="fechaEmision">La fecha de emisión del certificado.</param>
+ <param name="fechaVence">La fecha de vencimiento del certificado.</param>
+ <param name="estado">El estado del certificado.</param>
+ <returns>El objeto Certificacion insertado.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesNegocio.buscarCertificacionInscripcion(System.String)">
+ <param name="inscripcion">La inscripción del suplidor cuyos certificados se buscan.</param>
+ <returns>Una colección de objetos Certificacion que representan los certificados de inscripción.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesNegocio.eliminarCertificacion(System.String)">
+ <param name="codigo">El código del certificado a eliminar.</param>
+ <returns>El código del certificado eliminado.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesNegocio.buscarCamposDocumento(System.String)">
+ Trae la lista de campos requeridos para el certificado especifico.
+ <param name="documento">El código del certificado.</param>
+ <returns>El modelo con los campos requeridos.</returns>
+</member>
+<member name="M:BackEnd.CertificacionesNegocio.buscarListaBancos">
+ <returns>Una colección de objetos de tipos de certificaciones.</returns>
+</member>
+<member name="M:BackEnd.InformacionContableNegocio.cargarDatosContables(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto ActividadContable que contiene los datos de Información Contable.</returns>
+</member>
+<member name="M:BackEnd.SuplidorNegocio.insertarInscripcionSuplidor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <param name="cedula">Número de cédula del suplidor.</param>
+ <param name="nombre">Nombre del suplidor.</param>
+ <param name="tipoCedula">Tipo de cédula del suplidor.</param>
+ <param name="correo">Correo electrónico del suplidor.</param>
+ <param name="telefono">Teléfono fijo del suplidor.</param>
+ <param name="celular">Teléfono móvil del suplidor.</param>
+ <param name="actividadHM">Actividad registrada en Ministerio de Hacienda.</param>
+ <param name="direccion">Dirección de residencia del suplidor.</param>
+ <param name="distrito">Distrito del suplidor.</param>
+ <param name="region">Region donde reside el suplidor.</param>
+ <returns>Número de inscripción o un mensaje que indica si la inserción fue exitosa.</returns>
+</member>
+<member name="M:BackEnd.SuplidorNegocio.actualizarInscripcionSuplidor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <param name="cedula">Número de cédula del suplidor.</param>
+ <param name="nombre">Nombre del suplidor.</param>
+ <param name="tipoCedula">Tipo de cédula del suplidor.</param>
+ <param name="correo">Correo electrónico del suplidor.</param>
+ <param name="telefono">Teléfono fijo del suplidor.</param>
+ <param name="celular">Teléfono móvil del suplidor.</param>
+ <param name="actividadHM">Actividad registrada en Ministerio de Hacienda.</param>
+ <param name="direccion">Dirección de residencia del suplidor.</param>
+ <param name="distrito">Distrito del suplidor.</param>
+ <param name="region">Region donde reside el suplidor.</param>
+ <returns>Número de inscripción o un mensaje que indica si la inserción fue exitosa.</returns>
+</member>
+<member name="M:BackEnd.SuplidorNegocio.buscarEstadosInscripcion(System.String)">
+ <param name="cedula">El número de cédula del suplidor.</param>
+ <returns>Una lista de objetos EstadosInscripcion.</returns>
+</member>
+<member name="M:BackEnd.SuplidorNegocio.cargarDatosSuplidor(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor con los detalles del suplidor.</returns>
+</member>
+<member name="M:BackEnd.SuplidorNegocio.actualizarEstadoInscripcion(System.String)">
+ <param name="inscripcion">Número de inscripción a actualizar.</param>
+ <returns>True si la actualización fue exitosa, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.SuplidorNegocio.traerHistorial(System.String)">
+ <summary>
+ Obtiene los datos del historial de un suplidor basados en su número de cédula.
+ </summary>
+ <param name="cedula">Número de cédula del suplidor.</param>
+ <returns>Un objeto Suplidor con los detalles del historial.</returns>
+</member>
+<member name="T:BackEnd.CertificadoNegocio">
+ <summary>
+ Clase que contiene métodos de negocio relacionados con la certificación de productores.
+ </summary>
+</member>
+<member name="P:BackEnd.CertificadoNegocio.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase CertificadoNegocio utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.CertificadoNegocio.insertarCertificado(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Inserta un certificado de inscripción en la base de datos.
+ </summary>
+ <param name="inscripcion">La inscripción del productor.</param>
+ <param name="tipoCertificado">El tipo de certificado.</param>
+ <param name="numeroC">El número del certificado.</param>
+ <param name="rutaArch">La ruta del archivo del certificado.</param>
+ <param name="extension">La extensión del archivo del certificado.</param>
+ <param name="fechaEmision">La fecha de emisión del certificado.</param>
+ <param name="fechaVence">La fecha de vencimiento del certificado.</param>
+ <param name="estado">El estado del certificado.</param>
+ <returns>El objeto Certificacion insertado.</returns>
+</member>
+<member name="M:BackEnd.CertificadoNegocio.buscarCertificacionInscripcion(System.String)">
+ <summary>
+ Busca los certificados de inscripción de un productor en la base de datos y los devuelve en una colección.
+ </summary>
+ <param name="inscripcion">La inscripción del productor cuyos certificados se buscan.</param>
+ <returns>Una colección de objetos Certificacion que representan los certificados de inscripción.</returns>
+</member>
+<member name="M:BackEnd.CertificadoNegocio.eliminarCertificadoInscripcion(System.String)">
+ <summary>
+ Elimina un certificado de inscripción de la base de datos.
+ </summary>
+ <param name="codigo">El código del certificado a eliminar.</param>
+ <returns>El código del certificado eliminado.</returns>
+</member>
+<member name="M:BackEnd.CertificadoNegocio.buscarCamposDocumento(System.String)">
+ <summary>
+ Trae la lista de campos requeridos para el certificado especifico.
+ </summary>
+ <param name="documento">El código del certificado.</param>
+ <returns>El modelo con los campos requeridos.</returns>
+</member>
+<member name="T:BackEnd.CorreoNegocio">
+ <summary>
+ Clase que proporciona métodos para enviar correos electrónicos.
+ </summary>
+</member>
+<member name="P:BackEnd.CorreoNegocio.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase CorreoNegocio utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.CorreoNegocio.enviarCorreoFinInscripcion(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Envía un correo electrónico para notificar el final de una inscripción.
+ </summary>
+ <param name="correoDestino">La dirección de correo electrónico del destinatario.</param>
+ <param name="asunto">El asunto del correo electrónico.</param>
+ <param name="ip">La dirección IP relacionada con la inscripción.</param>
+ <param name="nombreUsuario">El nombre de usuario relacionado con la inscripción.</param>
+ <param name="inscripcion">El número de inscripción.</param>
+ <returns>True si el correo se envía correctamente, False en caso contrario.</returns>
+</member>
+<member name="T:BackEnd.InformacionGralNegocio">
+ <summary>
+ Clase que proporciona funcionalidades relacionadas con la información general del negocio.
+ </summary>
+</member>
+<member name="P:BackEnd.InformacionGralNegocio.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase InformacionGralNegocio utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarTipoCedulaColeccion">
+ <summary>
+ Busca y retorna una colección de tipos de cédulas.
+ </summary>
+ <returns>Una colección de objetos de tipos de cédulas.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarTipoProductorColeccion">
+ <summary>
+ Busca y retorna una colección de tipos de productores.
+ </summary>
+ <returns>Una colección de objetos de tipos de productores.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarTipoCertificacion">
+ <summary>
+ Busca y retorna una colección de tipos de certificación.
+ </summary>
+ <returns>Una colección de objetos de tipos de certificación.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarCertSuplidores">
+ <summary>
+ Busca y retorna una colección de tipos de certificación.
+ </summary>
+ <returns>Una colección de objetos de tipos de certificación.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarProvincias">
+ <summary>
+ Busca y retorna una colección de provincias.
+ </summary>
+ <returns>Una colección de objetos de provincias.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarCantones(System.String)">
+ <summary>
+ Busca y retorna una colección de cantones de una provincia específica.
+ </summary>
+ <param name="provincia">El código de provincia.</param>
+ <returns>Una colección de objetos de cantones.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarDistritos(System.String)">
+ <summary>
+ Busca y retorna una colección de distritos de un cantón específico.
+ </summary>
+ <param name="canton">El código de cantón.</param>
+ <returns>Una colección de objetos de distritos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.buscarRegion(System.String)">
+ <summary>
+ Busca y retorna la region de un distrito especifico.
+ </summary>
+ <returns>El codigo de la region a la que pertenece el distrito.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.agregarDiscapacidad(System.String@)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto Discapacidad que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.InformacionGralNegocio.nuevoTipoCertificacion(System.String@)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto Discapacidad que contiene los datos.</returns>
+</member>
+<member name="T:BackEnd.LinAbastecimientoNegocio">
+ <summary>
+ Clase que contiene métodos de negocio relacionados con la actividad de un productor.
+ </summary>
+ 
+</member>
+<member name="P:BackEnd.LinAbastecimientoNegocio.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase Linea de abastecimiento utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.insertarLineaAB(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Inserta una línea de abastecimiento a un productor en la base de datos.
+ </summary>
+ <param name="codLinea">codigo de la línea de abastecimiento</param>
+ <param name="provincia">provincia de donde se desarrollan las actividades.</param>
+ <param name="canton">canton de donde se desarrollan las actividades.</param>
+ <param name="distrito">Distrito de donde se desarrollan las actividades.</param>
+ <param name="direccion">direccion exacta de donde se desarrollan las actividades.</param>
+ <param name="Areatotal">Hectareas del terreno.</param>
+ <param name="LecheDia">Kg diarios de leche.</param>
+ <param name="totalCabezas">Total de cabezas, ganadería de carne.</param>
+ <param name="cabezasSemana">cabezas semanales, ganadería de carne.</param>
+ <param name="totalUnidades">Total unidades, ganadería de cerdo.</param>
+ <param name="unidadesSemana">Unidades semanales, ganadería de cerdo.</param>
+ <param name="totalPicos">total de picos, poduccion de pollos.</param>
+ <param name="kgdiaP">total de kg de pollos semanales, poduccion de pollos.</param>
+ <param name="cartonesDiarios">cartones de huevos diarios, poduccion de huevos.</param>
+ <param name="HuevosDia">total de kg de huevos semanales, poduccion de huevos.</param>
+ <param name="kgTilapia">total de kg de tilapia semanales, poduccion de pescado.</param>
+ <param name="kgOtros">total de kg de otro tipo de pescado semanales, poduccion de pescado.</param>
+ <param name="productoHorto">producto que produce el usuario.</param>
+ <param name="unidadMedida">unidad de medida del producto.</param>
+ <param name="frecuencia">frecuencia de producción del producto.</param>
+ <param name="cantidad">cantidad de producción del producto.</param>
+ <param name="inscripcion">numero de inscripción del productor </param>
+ <returns>Un objeto DatosFormulario que representa el terreno insertado.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.traerLineasAb(System.String)">
+ <summary>
+ Obtiene una colección de líneas de abastecimiento asociados a un productor.
+ </summary>
+ <param name="Productor">Código del productor.</param>
+ <returns>Una colección de objetos líneas de abastecimiento asociados al productor.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.eliminarLineaAb(System.String)">
+ <summary>
+ Elimina una línea de abastecimiento de la base de datos.
+ </summary>
+ <param name="Codigo">Código de la línea de abastecimiento a eliminar.</param>
+ <returns>El código de la línea de abastecimiento eliminado.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.buscarTipoProduccionColeccion">
+ <summary>
+ Busca y retorna una colección de tipos de producción.
+ </summary>
+ <returns>Una colección de objetos de tipos de producción.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.buscarCategoriasProducto">
+ <summary>
+ Busca y retorna una colección de categorías de producto.
+ </summary>
+ <returns>Una colección de objetos de categorías de producto.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.buscarProductosHorto">
+ <summary>
+ Busca y retorna una colección de productos.
+ </summary>
+ <returns>Una colección de objetos de categorías de producto.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.cargarUnidadesMedida">
+ <summary>
+ Busca y retorna una colección de unidades de medida.
+ </summary>
+ <returns>Una colección de objetos de categorías de producto.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.cargarFrecuencia">
+ <summary>
+ Busca y retorna una colección de frecuencias de producción.
+ </summary>
+ <returns>Una colección de objetos de categorías de producto.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.nuevaLineaAb(System.String@)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto LineaAbastecimiento que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.nuevoProductoHorto(System.String@)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto ProductosHorto que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.nuevaUnidadMedida(System.String@)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto ProductosHorto que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.LinAbastecimientoNegocio.nuevaFrecuencia(System.String@)">
+ <param name="nuevaOpcion">nueva opción para agregar a la base de datos.</param>
+ <returns>Un objeto FrecuenciaProduccion que contiene los datos.</returns>
+</member>
+<member name="T:BackEnd.ProductorNegocio">
+ <summary>
+ Clase que representa la lógica de negocio relacionada con los productores.
+ </summary>
+</member>
+<member name="P:BackEnd.ProductorNegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase ProductorNegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.ProductorNegocio.actualizarEstadoInscripcion(System.String)">
+ <summary>
+ Actualiza el estado de una inscripción de productor en la base de datos.
+ </summary>
+ <param name="inscripcion">Número de inscripción a actualizar.</param>
+ <returns>True si la actualización fue exitosa, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.ProductorNegocio.insertarInscripcionProductor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Inserta una nueva inscripción de productor en la base de datos.
+ </summary>
+ <param name="tipoCedula">Tipo de cédula del productor.</param>
+ <param name="cedula">Número de cédula del productor.</param>
+ <param name="nombre">Nombre del productor.</param>
+ <param name="genero">Género del productor.</param>
+ <param name="telefono">Teléfono fijo del productor.</param>
+ <param name="celular">Teléfono móvil del productor.</param>
+ <param name="correo">Correo electrónico del productor.</param>
+ <param name="distrito">Distrito de residencia del productor.</param>
+ <param name="direccion">Dirección de residencia del productor.</param>
+ <param name="tipoProductor">Tipo de productor.</param>
+ <param name="empresa">Empresa asociada al productor.</param>
+ <param name="ccss">Estado en la caja.</param>
+ <param name="provincia">Provincia de residencia del productor.</param>
+ <param name="canton">Cantón de residencia del productor.</param>
+ 
+ <returns>Número de inscripción o un mensaje que indica si la inserción fue exitosa.</returns>
+</member>
+<member name="M:BackEnd.ProductorNegocio.actualizarInscripcionProductor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Actualiza la inscripción de un productor existente en la base de datos.
+ </summary>
+ <param name="inscripcion">Número de inscripción del productor a actualizar.</param>
+ <param name="tipoCedula">Tipo de cédula del productor.</param>
+ <param name="cedula">Número de cédula del productor.</param>
+ <param name="nombre">Nombre del productor.</param>
+ <param name="genero">Género del productor.</param>
+ <param name="telefono">Teléfono fijo del productor.</param>
+ <param name="celular">Teléfono móvil del productor.</param>
+ <param name="correo">Correo electrónico del productor.</param>
+ <param name="distrito">Distrito de residencia del productor.</param>
+ <param name="direccion">Dirección de residencia del productor.</param> ByVal provincia As String, ByVal canton As String
+ <param name="tipoProductor">Tipo de productor.</param>
+ <param name="empresa">Empresa asociada al productor.</param>
+ <param name="provincia">Provincia de residencia del productor.</param>
+ <param name="canton">Cantón de residencia del productor.</param>
+ <returns>Un objeto Productor actualizado.</returns>
+</member>
+<member name="M:BackEnd.ProductorNegocio.traerDatosProductor(System.String@)">
+ <summary>
+ Obtiene los datos de un productor basados en su número de inscripción.
+ </summary>
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor con los detalles del productor.</returns>
+</member>
+<member name="M:BackEnd.ProductorNegocio.traerHistorial(System.String)">
+ <summary>
+ Obtiene los datos del historial de un productor basados en su número de cédula.
+ </summary>
+ <param name="cedula">Número de cédula del productor.</param>
+ <returns>Un objeto Productor con los detalles del historial.</returns>
+</member>
+<member name="M:BackEnd.ProductorNegocio.buscarEstadosInscripcion(System.String)">
+ <summary>
+ Obtiene una lista de estados de inscripción de un productor a partir de su número de cédula.
+ </summary>
+ <param name="cedula">El número de cédula del productor.</param>
+ <returns>Una lista de objetos EstadosInscripcion.</returns>
+</member>
+<member name="T:BackEnd.RepLegalNegocio">
+ <summary>
+ Clase que representa la lógica de negocio relacionada con los Representantes Legales.
+ </summary>
+</member>
+<member name="P:BackEnd.RepLegalNegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase RepLegalNegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.RepLegalNegocio.insertarRepLegal(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Inserta un Representante Legal en una inscripción de productor.
+ </summary>
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="cedula">Cédula del Representante Legal.</param>
+ <param name="nombre">Nombre del Representante Legal.</param>
+ <param name="genero">Género del Representante Legal.</param>
+ <param name="telefono">Teléfono fijo del Representante Legal.</param>
+ <param name="celular">Teléfono móvil del Representante Legal.</param>
+ <param name="correo">Correo electrónico del Representante Legal.</param>
+ <returns>Un objeto RepresentanteLegal que representa el Representante Legal insertado.</returns>
+</member>
+<member name="M:BackEnd.RepLegalNegocio.traerDatosRepLegal(System.String@)">
+ <summary>
+ Obtiene los datos del Representante Legal asociado a una inscripción de productor.
+ </summary>
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto RepresentanteLegal que contiene los datos del Representante Legal.</returns>
+</member>
+<member name="M:BackEnd.RepLegalNegocio.cargarRLSuplidor(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto RepresentanteLegal que contiene los datos del Representante Legal.</returns>
+</member>
+<member name="M:BackEnd.RepLegalNegocio.insertarRLSuplidor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="cedula">Cédula del Representante Legal.</param>
+ <param name="nombre">Nombre del Representante Legal.</param>
+ <param name="genero">Género del Representante Legal.</param>
+ <param name="telefono">Teléfono fijo del Representante Legal.</param>
+ <param name="celular">Teléfono móvil del Representante Legal.</param>
+ <param name="correo">Correo electrónico del Representante Legal.</param>
+ <returns>Un objeto RepresentanteLegal que representa el Representante Legal insertado.</returns>
+</member>
+<member name="T:BackEnd.UsuarioNegocio">
+ <summary>
+ Clase que representa la lógica de negocio relacionada con los Usuarios.
+ </summary>
+</member>
+<member name="P:BackEnd.UsuarioNegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase UsuarioNegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.guardarUsuarioNuevo(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Registra un nuevo usuario en la base de datos.
+ </summary>
+ <param name="tipoCedula">Tipo de cédula del usuario.</param>
+ <param name="cedula">Número de cédula del usuario.</param>
+ <param name="genero">Género del usuario.</param>
+ <param name="nombre">Nombre del usuario.</param>
+ <param name="email">Dirección de correo electrónico del usuario.</param>
+ <param name="pass">Contraseña del usuario.</param>
+ <returns>Un objeto Usuario que representa al usuario registrado.</returns>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.validarCedulaUsuario(System.String)">
+ <summary>
+ Valida si una cédula de usuario ya existe en la base de datos.
+ </summary>
+ <param name="cedula">Número de cédula a validar.</param>
+ <returns>True si la cédula existe en la base de datos, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.validarCorreoUsuario(System.String)">
+ <summary>
+ Valida si una dirección de correo electrónico de usuario ya existe en la base de datos.
+ </summary>
+ <param name="correo">Dirección de correo electrónico a validar.</param>
+ <returns>True si el correo electrónico existe en la base de datos, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.validarPassword(BackEnd.Usuario)">
+ <summary>
+ Valida las credenciales de inicio de sesión de un usuario.
+ </summary>
+ <param name="modelo">Objeto Usuario que contiene las credenciales de inicio de sesión.</param>
+ <returns>True si las credenciales son válidas, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.traerDatosUsuario(System.String@)">
+ <summary>
+ Obtiene los datos de un usuario a partir de su número de cédula.
+ </summary>
+ <param name="cedula">Número de cédula del usuario.</param>
+ <returns>Un objeto Usuario que representa los datos del usuario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.verificarRespuestaPregunta(System.String,System.String,System.String)">
+ <summary>
+ Verifica si la respuesta a una pregunta de seguridad proporcionada por el usuario es correcta.
+ </summary>
+ <param name="cedula">Número de cédula del usuario.</param>
+ <param name="codigo">Código de la pregunta de seguridad.</param>
+ <param name="respuesta">Respuesta proporcionada por el usuario.</param>
+ <returns>True si la respuesta es correcta, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.buscarPreguntas">
+ <summary>
+ Busca y retorna una lista de preguntas desde la capa de acceso a datos.
+ </summary>
+ <returns>Una lista de objetos Preguntas_Access.</returns>
+</member>
+<member name="M:BackEnd.UsuarioNegocio.guardarRespuestas(System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Guarda las respuestas de un usuario en la base de datos.
+ </summary>
+ <param name="cedula">La cédula del usuario.</param>
+ <param name="listaRespuestas">La lista de respuestas a guardar.</param>
+ <returns>La lista de respuestas guardadas.</returns>
+</member>
+<member name="P:BackEnd.NuevosFormsPPDAO.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase NuevosFormsPPDAO.
+ </summary>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.AEOcargarInscripPP(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.DirecRegCargarInscripPP(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.DirecMercCargarInscripPP">
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.ComerCargarInscripPP">
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.buscarInscripcionPP(System.String)">
+ <param name="terminoBusqueda">la busqueda con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.buscarArchivoPP(System.String)">
+ <param name="terminoBusqueda">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.RegArchivoPP(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPDAO.ArchivosPP">
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="P:BackEnd.NuevosFormsSADAO.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase NuevosFormsSADAO.
+ </summary>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.AEOcargarInscripSA(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.DirecRegCargarInscripSA(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.DirecMercCargarInscripSA">
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.ComerCargarInscripSA">
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.buscarInscripcionSA(System.String)">
+ <param name="terminoBusqueda">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.buscarArchivoSA(System.String)">
+ <param name="terminoBusqueda">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.RegArchivoSA(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSADAO.ArchivosSA">
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.guardarUsuarioNuevo(BackEnd.UsuarioInterno)">
+ <param name="modelo">El objeto Usuario a registrar.</param>
+ <returns>El objeto Usuario registrado.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.validarCedulaUsuario(System.String)">
+ <param name="cedula">La cédula a verificar.</param>
+ <returns>True si la cédula ya está registrada, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.validarCorreoUsuario(System.String)">
+ <param name="correo">La dirección de correo electrónico a verificar.</param>
+ <returns>True si la dirección de correo ya está registrada, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.validarUsuario(System.String)">
+ <param name="usuario">El usuario a verificar.</param>
+ <returns>True si el usuario ya está registrada, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.buscarRoles">
+ <returns>Una colección de objetos Roles.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.buscarRegiones">
+ <returns>Una colección de objetos regiones.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.guardarRespuestas(System.Collections.Generic.List{BackEnd.Respuestas_Access})">
+ <param name="listaModelos">La lista de respuestas a guardar.</param>
+ <returns>La lista de respuestas guardadas.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.validarPassword(BackEnd.UsuarioInterno)">
+ <param name="modelo">El objeto Usuario con las credenciales a validar.</param>
+ <returns>True si las credenciales son válidas, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.verificarRespuestaPregunta(System.String,System.String,System.String)">
+ <param name="usuario">usuario cnp del usuario.</param>
+ <param name="codigo">El código de la pregunta de seguridad.</param>
+ <param name="respuesta">La respuesta a la pregunta de seguridad.</param>
+ <returns>True si la respuesta es correcta, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.traerRegionUI(System.String)">
+ <param name="usuario">Usuario cnp del usuario.</param>
+ <returns>Un objeto Usuariointerno que representa los datos del usuario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.RolRegion(System.String)">
+ <param name="rolSelect">La selección del rol del combobox.</param>
+ <returns>modelo Roles con un SI o un NO</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoDAO.cargarRolUI(System.String)">
+ <param name="usuario">Usuario cnp del usuario.</param>
+ <returns>Un objeto UsuarioInterno que representa el rol usuario.</returns>
+</member>
+<member name="P:BackEnd.VistaInscripcionPPDAO.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase VistaInscripcionPPDAO.
+ </summary>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.traerDatosProductor(System.String)">
+ <summary>
+ Trae los datos de un productor dado su código de inscripción.
+ </summary>
+ <param name="inscripcion">El código de inscripción del productor.</param>
+ <returns>El objeto Productor con los datos del productor.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.buscarRutaArchivo(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la ruta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.verificacionCampo(System.String,System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="codigo">codigo de la línea de datos a actualizar.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.buscarVerificacionCampo(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.agregarObservaciones(System.String,System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="observaciones">datos a insertar.</param>>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.enviarSolicitud(System.String,System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="areaRevision">estado del area de revision.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.traerObservaciones(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la ruta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.subsanarSoliPP(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.actualizarProductorSubs(System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="numResolucion">Número de resolución agregado por un UI.</param>
+ <param name="observacion">observaciones de la subsanación agregado por un UI.</param>
+ <returns>Un objeto Productor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.actualizarInscripPP(System.String@,System.String@,System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="numResolucion">Número de resolución agregado por un UI.</param>
+ <param name="fechaResolucion">fecha de devolución del formulario.</param>
+ <param name="condicion">condicion rechazada o aceptada del formulario.</param>
+ <param name="observaciones">observaciones opcionales agregadas por el funcionario.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.borrarInfoPP(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.borrarRLPP(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto RepresentanteLegal que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.borrarLineaAbPP(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto LineaAbastecimiento que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.borrarCertPP(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPDAO.cargarResolucion(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor que contiene los datos de la resolución.</returns>
+</member>
+<member name="P:BackEnd.VistaInscripcionSADAO.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase VistaInscripcionSADAO.
+ </summary>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.traerDatosSuplidor(System.String)">
+ <param name="inscripcion">El código de inscripción del productor.</param>
+ <returns>El objeto Productor con los datos del productor.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.cargarDatosContables(System.String)">
+ <param name="inscripcion">La inscripción del suplidor.</param>
+ <returns>El objeto ActividadContable correspondiente a la inscripción.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.traerFormulaIndustria">
+ <summary>
+ Obtiene los datos para hacer la formula de clasificacion de suplidores.
+ </summary>
+ <returns>Un objeto FormulaClasificacion con los detalles de la formula.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.buscarRutaArchivo(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la ruta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.buscarCuentaIBAN(System.String)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la cuenta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.enviarSolicitud(System.String,System.String)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="areaRevision">estado del area de revision.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.subsanarSoliPP(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.actualizarSuplidorSubs(System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="numResolucion">Número de resolución agregado por un UI.</param>
+ <param name="observacion">observaciones de la subsanación agregado por un UI.</param>
+ <returns>Un objeto Productor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.guardarInspeccion(BackEnd.InspeccionTecnica@)">
+ <param name="modelo">modelo con toda los datos de inspección técnica a insertar.</param>
+ <returns>Un objeto InspeccionTecnica que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.actualizarInscripSA(System.String@,System.String@,System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="numResolucion">Número de resolución agregado por un UI.</param>
+ <param name="fechaResolucion">fecha de devolución del formulario.</param>
+ <param name="condicion">condicion rechazada o aceptada del formulario.</param>
+ <param name="observaciones">observaciones opcionales agregadas por el funcionario.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.borrarInfoSA(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.borrarRLSA(System.String)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.borrarInfoContaSA(System.String)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.borrarCertSA(System.String)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.actualizarInspeccion(BackEnd.InspeccionTecnica@)">
+ <param name="modelo">modelo con toda los datos de inspección técnica a modificar.</param>
+ <returns>Un objeto InspeccionTecnica que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.cargarInspeccion(System.String)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la ruta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSADAO.cargarResolucion(System.String)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la ruta.</returns>
+</member>
+<member name="P:BackEnd.NuevosFormsPPNegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase NuevosFormsPPNegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.AEOcargarInscripPP(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.DirecRegCargarInscripPP(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.DirecMercCargarInscripPP">
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.ComerCargarInscripPP">
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.buscarInscripcionPP(System.String)">
+ <param name="busqueda">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.buscarArchivoPP(System.String)">
+ <param name="busqueda">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.RegArchivoPP(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsPPNegocio.ArchivosPP">
+ <returns>Una colección de objetos Inscripciones de los productores primarios.</returns>
+</member>
+<member name="P:BackEnd.NuevosFormsSANegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase NuevosFormsSANegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.AEOcargarInscripSA(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.DirecRegCargarInscripSA(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.buscarInscripcionSA(System.String)">
+ <param name="busqueda">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.buscarArchivoSA(System.String)">
+ <param name="busqueda">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.DirecMercCargarInscripSA">
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.ComerCargarInscripSA">
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.RegArchivoSA(System.String)">
+ <param name="region">La region con la cual deben coincidir las inscripciones que se van a mostrar.</param>
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="M:BackEnd.NuevosFormsSANegocio.ArchivosSA">
+ <returns>Una colección de objetos Inscripciones de los suplidores de acopio.</returns>
+</member>
+<member name="P:BackEnd.UsuarioInternoNegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase UsuarioNegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.guardarUsuarioNuevo(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <param name="cedula">Número de cédula del usuario.</param>
+ <param name="nombre">Nombre del usuario.</param>
+ <param name="usuario">Usuario cnp del usuario.</param>
+ <param name="email">Dirección de correo electrónico del usuario.</param>
+ <param name="pass">Contraseña del usuario.</param>
+ <param name="genero">Género del usuario.</param>
+ <returns>Un objeto Usuario que representa al usuario registrado.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.validarCedulaUsuario(System.String)">
+ <param name="cedula">Número de cédula a validar.</param>
+ <returns>True si la cédula existe en la base de datos, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.validarCorreoUsuario(System.String)">
+ <param name="correo">Dirección de correo electrónico a validar.</param>
+ <returns>True si el correo electrónico existe en la base de datos, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.validarUsuario(System.String)">
+ <param name="usuario">usuario a validar.</param>
+ <returns>True si el usuario existe en la base de datos, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.buscarRoles">
+ <returns>Una colección de objetos de regiones.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.buscarRegiones">
+ <returns>Una colección de objetos de regiones.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.validarPassword(BackEnd.UsuarioInterno)">
+ <param name="modelo">Objeto Usuario que contiene las credenciales de inicio de sesión.</param>
+ <returns>True si las credenciales son válidas, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.verificarRespuestaPregunta(System.String,System.String,System.String)">
+ <param name="usuario">número de cedula del usuario.</param>
+ <param name="codigo">Código de la pregunta de seguridad.</param>
+ <param name="respuesta">Respuesta proporcionada por el usuario.</param>
+ <returns>True si la respuesta es correcta, False en caso contrario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.guardarRespuestas(System.String,System.Collections.Generic.List{System.String})">
+ <param name="usuario">usuario cnp del usuario.</param>
+ <param name="listaRespuestas">La lista de respuestas a guardar.</param>
+ <returns>La lista de respuestas guardadas.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.traerRegionUI(System.String@)">
+ <param name="usuario">Usuario cnp del usuario.</param>
+ <returns>Un objeto Usuario que representa los datos del usuario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.cargarRolUI(System.String@)">
+ <param name="usuario">Usuario cnp del usuario.</param>
+ <returns>Un objeto UsuarioInterno que representa el rol usuario.</returns>
+</member>
+<member name="M:BackEnd.UsuarioInternoNegocio.RolRegion(System.String)">
+ <param name="rolSelect">opción de rol seleccionada .</param>
+ <returns>Objeto Roles que trae un SI o un NO</returns>
+</member>
+<member name="P:BackEnd.VistaInscripcionPPNegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase VistaIncripcionPPNegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.traerDatosProductor(System.String@)">
+ <summary>
+ Obtiene los datos de un productor basados en su número de inscripción.
+ </summary>
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor con los detalles del productor.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.buscarRutaArchivo(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la ruta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.verificacionCampo(System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="codigo">codigo de la línea de datos a actualizar.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.buscarVerificacionCampo(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.agregarObservaciones(System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="observacion">datos a insertar.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.enviarSolicitud(System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="areaRevision">estado del area de revision.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.traerObservaciones(System.String)">
+ <param name="Productor">Código del productor.</param>
+ <returns>Una colección de objetos líneas de abastecimiento asociados al productor.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.subsanarSoliPP(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.actualizarProductorSubs(System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="observacion">datos a insertar.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.actualizarInscripPP(System.String@,System.String@,System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <param name="numResolucion">Número de resolución agregado por un UI.</param>
+ <param name="fechaResolucion">fecha de devolución del formulario.</param>
+ <param name="condicion">condicion rechazada o aceptada del formulario.</param>
+ <param name="observaciones">observaciones opcionales agregadas por el funcionario.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.borrarInfoPP(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.borrarRLPP(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.borrarLineaAbPP(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.borrarCertPP(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionPPNegocio.cargarResolucion(System.String@)">
+ <param name="inscripcion">Número de inscripción del productor.</param>
+ <returns>Un objeto Productor con los detalles del productor.</returns>
+</member>
+<member name="P:BackEnd.VistaInscripcionSANegocio.Instancia">
+ <summary>
+ Propiedad de solo lectura para obtener una instancia única de la clase VistaInscripcionSANegocio.
+ </summary>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.traerDatosSuplidor(System.String@)">
+ <summary>
+ Obtiene los datos de un suplidor basados en su número de inscripción.
+ </summary>
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Productor con los detalles del suplidor.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.cargarDatosContables(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto ActividadContable que contiene los datos de Información Contable.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.traerFormulaIndustria">
+ <summary>
+ Obtiene los datos para hacer la formula de clasificacion de suplidores.
+ </summary>
+ <returns>Un objeto FormulaClasificacion con los detalles de la formula.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.buscarRutaArchivo(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la ruta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.buscarCuentaIBAN(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Certificacion que contiene los datos de la cuenta.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.enviarSolicitud(System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="areaRevision">estado del area de revision.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.subsanarSoliPP(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.actualizarSuplidorSubs(System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="observacion">datos a insertar.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.guardarInspeccion(System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="usuarioInterno">nombre del usuario interno</param>
+ <param name="fechaInspeccion">datos a insertar.</param>
+ <param name="numSolicitud">datos a insertar.</param>
+ <param name="fechaSolicitud">datos a insertar.</param>
+ <param name="numInforme">datos a insertar.</param>
+ <param name="fechaInforme">datos a insertar.</param>
+ <param name="resultadoMayor">datos a insertar.</param>
+ <param name="resultadoMenor">datos a insertar.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.actualizarInscripSA(System.String@,System.String@,System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="numResolucion">Número de resolución agregado por un UI.</param>
+ <param name="fechaResolucion">fecha de devolución del formulario.</param>
+ <param name="condicion">condicion rechazada o aceptada del formulario.</param>
+ <param name="observaciones">observaciones opcionales agregadas por el funcionario.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.borrarInfoSA(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.borrarRLSA(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.borrarInfoContaSA(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.borrarCertSA(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Suplidor que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.actualizarInspeccion(System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <param name="usuarioInterno">nombre del usuario interno</param>
+ <param name="fechaInspeccion">datos a insertar.</param>
+ <param name="numSolicitud">datos a insertar.</param>
+ <param name="fechaSolicitud">datos a insertar.</param>
+ <param name="numInforme">datos a insertar.</param>
+ <param name="fechaInforme">datos a insertar.</param>
+ <param name="resultadoMayor">datos a insertar.</param>
+ <param name="resultadoMenor">datos a insertar.</param>
+ <returns>Un objeto DatosFormulario que contiene los datos.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.cargarInspeccion(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Productor con los detalles del suplidor.</returns>
+</member>
+<member name="M:BackEnd.VistaInscripcionSANegocio.cargarResolucion(System.String@)">
+ <param name="inscripcion">Número de inscripción del suplidor.</param>
+ <returns>Un objeto Productor con los detalles del suplidor.</returns>
+</member>
+<member name="T:BackEnd.IpAddressHelper">
+ <summary>
+ Clase de utilidad para obtener la dirección IP del usuario actual.
+ </summary>
+</member>
+<member name="P:BackEnd.IpAddressHelper.Instancia">
+ <summary>
+ Obtiene una instancia única de la clase IpAddressHelper utilizando el patrón Singleton.
+ </summary>
+</member>
+<member name="M:BackEnd.IpAddressHelper.GetIpAddress">
+ <summary>
+ Obtiene la dirección IP del usuario actual.
+ </summary>
+ <returns>La dirección IP del usuario actual como una cadena de texto.</returns>
+</member>
+</members>
+</doc>

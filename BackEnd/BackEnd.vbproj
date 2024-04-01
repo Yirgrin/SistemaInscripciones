@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{FAF8582B-806F-482A-B26F-B628C179B6AB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BackEnd</RootNamespace>
+    <AssemblyName>BackEnd</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BackEnd.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BackEnd.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.DynamicData.EFProvider, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.DynamicData.EFProvider.6.0.0\lib\net40\Microsoft.AspNet.DynamicData.EFProvider.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.EntityDataSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.EntityDataSource.6.0.0\lib\net40\Microsoft.AspNet.EntityDataSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Productor Primario\Modelos Productor Primario\FrecuenciaProduccion.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\ProductosHorto.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\UnidadesMedida.vb" />
+    <Compile Include="Suplidores\DAO Suplidores\ActividadComercialDAO.vb" />
+    <Compile Include="Suplidores\DAO Suplidores\CertificacionesDAO.vb" />
+    <Compile Include="Suplidores\DAO Suplidores\InformacionContableDAO.vb" />
+    <Compile Include="Productor Primario\DAO Productor Primario\CertificadoDAO.vb" />
+    <Compile Include="Productor Primario\DAO Productor Primario\InformacionGralDAO.vb" />
+    <Compile Include="Productor Primario\DAO Productor Primario\LinAbastecimientoDAO.vb" />
+    <Compile Include="Productor Primario\DAO Productor Primario\ParametroDAO.vb" />
+    <Compile Include="Productor Primario\DAO Productor Primario\ProductorDAO.vb" />
+    <Compile Include="Productor Primario\DAO Productor Primario\RepLegalDAO.vb" />
+    <Compile Include="Productor Primario\DAO Productor Primario\UsuarioDAO.vb" />
+    <Compile Include="Suplidores\DAO Suplidores\SuplidorDAO.vb" />
+    <Compile Include="Suplidores\Modelos Suplidores\ActividadComercial.vb" />
+    <Compile Include="Suplidores\Modelos Suplidores\Certificaciones.vb" />
+    <Compile Include="Suplidores\Negocio Suplidores\ActividadComercialNegocio.vb" />
+    <Compile Include="Suplidores\Modelos Suplidores\ActividadContable.vb" />
+    <Compile Include="Suplidores\Modelos Suplidores\LineasProduccion.vb" />
+    <Compile Include="Suplidores\Modelos Suplidores\Suplidor.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Certificacion.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\DatosFormulario.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Discapacidad.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Escolaridad.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\EstadoCCSS.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\EstadoCivil.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\EstadosInscripcion.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Etnias.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\General.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\LineaAbastecimiento.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Preguntas_Access.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Productor.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\RepresentanteLegal.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Respuestas_Access.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\TipoCedula.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\TipoCertificado.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\TipoProduccion.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\TipoProductor.vb" />
+    <Compile Include="Productor Primario\Modelos Productor Primario\Usuario.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Suplidores\Negocio Suplidores\CertificacionesNegocio.vb" />
+    <Compile Include="Suplidores\Negocio Suplidores\InformacionContableNegocio.vb" />
+    <Compile Include="Suplidores\Negocio Suplidores\SuplidorNegocio.vb" />
+    <Compile Include="Productor Primario\Negocio Productor Primario\CertificadoNegocio.vb" />
+    <Compile Include="Productor Primario\Negocio Productor Primario\CorreoNegocio.vb" />
+    <Compile Include="Productor Primario\Negocio Productor Primario\InformacionGralNegocio.vb" />
+    <Compile Include="Productor Primario\Negocio Productor Primario\LinAbastecimientoNegocio.vb" />
+    <Compile Include="Productor Primario\Negocio Productor Primario\ProductorNegocio.vb" />
+    <Compile Include="Productor Primario\Negocio Productor Primario\RepLegalNegocio.vb" />
+    <Compile Include="Productor Primario\Negocio Productor Primario\UsuarioNegocio.vb" />
+    <Compile Include="Usuario Interno\DAO Usuario Interno\NuevosFormsPPDAO.vb" />
+    <Compile Include="Usuario Interno\DAO Usuario Interno\NuevosFormsSADAO.vb" />
+    <Compile Include="Usuario Interno\DAO Usuario Interno\UsuarioInternoDAO.vb" />
+    <Compile Include="Usuario Interno\DAO Usuario Interno\VistaInscripcionPPDAO.vb" />
+    <Compile Include="Usuario Interno\DAO Usuario Interno\VistaInscripcionSADAO.vb" />
+    <Compile Include="Usuario Interno\Modelos Usuario Interno\FormulaClasificacion.vb" />
+    <Compile Include="Usuario Interno\Modelos Usuario Interno\InspeccionTecnica.vb" />
+    <Compile Include="Usuario Interno\Modelos Usuario Interno\Regiones.vb" />
+    <Compile Include="Usuario Interno\Modelos Usuario Interno\Roles.vb" />
+    <Compile Include="Usuario Interno\Modelos Usuario Interno\UsuarioInterno.vb" />
+    <Compile Include="Usuario Interno\Negocio Usuario Interno\NuevosFormsPPNegocio.vb" />
+    <Compile Include="Usuario Interno\Negocio Usuario Interno\NuevosFormsSANegocio.vb" />
+    <Compile Include="Usuario Interno\Negocio Usuario Interno\UsuarioInternoNegocio.vb" />
+    <Compile Include="Usuario Interno\Negocio Usuario Interno\VistaInscripcionPPNegocio.vb" />
+    <Compile Include="Usuario Interno\Negocio Usuario Interno\VistaInscripcionSANegocio.vb" />
+    <Compile Include="Util\ConexionBD.vb" />
+    <Compile Include="Util\DAOExcepcion.vb" />
+    <Compile Include="Util\IpAddressHelper.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6383</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6383/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
